@@ -1,0 +1,100 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconContainer {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+gap: 20px;
+}
+
+.blueRectangle {
+width: 100%;
+height: 60px;
+background-color: #146BAA;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.pricesearchText {
+color: #FFD448;
+font-family: 'Saira Condensed';
+font-size: 30px;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.searchForm {
+background-color: #146BAA;
+padding: 10px;
+color: #146BAA;
+border-radius: 25px;
+margin-top: 20px;
+}
+
+.search[type="text"] {
+width: 400px;
+height: 25px;
+padding: 5px;
+border: none;
+border-radius: 5px;
+outline: none;
+color: white;
+background-color: #146BAA;
+}
+
+.search::placeholder {
+color: #FFD448;
+}
+
+.horizontalFoodSectionContainer {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-top: 20px;
+}
+
+.horizontalFoodItem {
+width: 300px;
+margin: 10px;
+padding: 20px;
+border: 2px solid #146BAA;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #fff;
+transition: transform 0.3s ease-in-out;
+
+&:hover {
+    transform: scale(1.05);
+}
+}
+
+
+.foodImage {
+max-width: 100px;
+max-height: 100px;
+margin-bottom: 10px;
+}
+
+.introSection {
+text-align: center;
+margin-top: 50px;
+}
+
+.introImage {
+width: 100px;
+height: 100px;
+}
+
+.introText {
+color: #146BAA;
+font-size: 25px;
+margin-top: 20px;
+}
